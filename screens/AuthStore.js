@@ -1,5 +1,6 @@
 import { observable, decorate, action } from 'mobx';
-import { sendData } from '../../logic/sendData';
+import { sendData } from '../logic/sendData';
+import AsyncStorage from '@react-native-community/async-storage';
 
 
 class AuthStore {
@@ -17,7 +18,7 @@ class AuthStore {
                 this.setTokenData(result.id)
                 this.getTokenData(result.id)
             })
-            .catch(error => console.log('error', error))
+            .catch(error => console.log('error sendData: Login ', error))
     }
 
     SignIn = (mail, pass) => {
@@ -31,21 +32,39 @@ class AuthStore {
             .catch(error => console.log('error', error))
     }
 
-    setTokenData = (token) => {
-        sessionStorage.setItem("userToken", token);
-    }
-
-    getTokenData = (token) => {
-        if (token === sessionStorage.getItem('userToken')) {
-            this.isLoggedIn = true;
-        } else {
-            this.isLoggedIn = false;
-            sessionStorage.removeItem('userToken');
+    setTokenData = async (token) => {
+        try {
+            await AsyncStorage.setItem("userToken", token);
+        } catch (error) {
+            console.log("AuthStore: setTokenData ",error)
         }
     }
 
-    getTokenExist = () => {
-        this.isLoggedIn = (sessionStorage.getItem('userToken') !== null)
+    getTokenData = async (token) => {
+        try {
+            const accessUserToken = await AsyncStorage.getItem('userToken')
+            if (token === accessUserToken) {
+                this.isLoggedIn = true;
+            } else {
+                this.isLoggedIn = false;
+                try {
+                    await AsyncStorage.removeItem('userToken');
+                } catch (error) {
+                    console.log("AuthStore: getTokenData ",error)
+                }
+            }
+        } catch (error) {
+            console.log("AuthStore: getTokenData ",error)
+        }
+    }
+
+    getTokenExist = async () => {
+        try {
+            const accessUserToken = await AsyncStorage.getItem('userToken')
+            this.isLoggedIn === accessUserToken
+        } catch (error) {
+            console.log("AuthStore: getTokenExist ",error)
+        }
     }
 }
 
@@ -56,5 +75,6 @@ const AuthExport = decorate(AuthStore, {
     getTokenData: action,
     getTokenExist: action
 })
+
 
 export default new AuthExport()

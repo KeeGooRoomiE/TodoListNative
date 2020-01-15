@@ -1,14 +1,8 @@
-import React,{Component} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import React, { Component } from 'react';
+import { View } from 'react-native';
 import UserField from '../components/UserField';
 import { initArrayInputs, initArrayLoginButtons } from './AuthElements';
+import AuthStore from './AuthStore';
 
 export default class Login extends Component {
 
