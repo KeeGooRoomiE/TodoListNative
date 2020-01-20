@@ -5,9 +5,15 @@ INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/ap
 INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:@react-native-community_async-storage] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/spartan/.gradle/caches/transforms-2/files-2.1/5c916a80f693b7a635c32770a488149b/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f81e41817c329646c55127be964c739a/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/spartan/.gradle/caches/transforms-2/files-2.1/547f78eeb17fa0c767faee87f4dbd8a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/c131754963f69f4e502d7dd146ace48b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/8ca480af244bcb56b16f0306327a91ff/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/fd74a26fee505e97759b025e4bf1bd66/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/c83ade3641dc14c88c592a4c1f2da5b2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/cf3e02f83ba0f0eb1937a250658bf47c/AndroidManifest.xml:2:1-9:12
@@ -16,32 +22,38 @@ MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/spartan/.gradle/cac
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f4106d4b9916526586519d1491174fe7/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/23c70639e837823a9cbba6fce160a1d4/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/a690bc5986915e357e63e7221d16e71a/AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/74a7b2f165ebfa86eec7a7310aaa478e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/2134efbcd426d98ee3692313433ca1a1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/bc3587801c0bf5cf72c29cbbdbc493d9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/cafc5df7421428d2fb470abe00b4de65/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/506c79d47558975e73e024df96940d40/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d1479e401cb911df87503facbf801f1d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/spartan/.gradle/caches/transforms-2/files-2.1/7160eb312bf7de888e0aea68986ac120/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/9760f8237c26112f20af675756ad47d6/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0135c517d4694b2b4474a798ec172e30/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/9f1f19fc9f3a78e017499588146edd08/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/70e767c7f273321ac03c4593d9822c71/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/521fa64e04259f841504bacba4d48928/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/3cf6b7f0143d01130513135ddaa8215f/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f581851b5ac49abb2afa60b3df808009/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0135c517d4694b2b4474a798ec172e30/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/63259235eef7b95f966b0391e7c04ff8/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0327cfc61fbc349dc7375b718ccbd4b6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d1479e401cb911df87503facbf801f1d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/9760f8237c26112f20af675756ad47d6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/a7798da862c4285c56aee814ec65bf90/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/1b9cf37c655e5f61c5691991491876a9/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/277a4166de5d0c569b3dc729615a00e0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0792ef8f32c818a0d6b184864771dd2c/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d3e39878af46411dc0d0ff3125a93e43/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.1] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f238294702919b4267a12cae7bc7e1b4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d179f689e259e2d1ab30c8e0db88e4cd/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.core:core:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/193f3f9a1a6cc7892da40772b8ca5987/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/8486886140556475f7e1027e39a7fd5e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/7a0785b159bd9219153e368ec27c488f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/3f35a28f6900c57266de7030b1825178/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/61f444202245ab5d3ba42eaaffe90d6f/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/89131eccc31fb92eaa4bc03961fff4e2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/617f24cdf58ab78db0e5014e0bd5e3f5/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/3efc17981112c2e74d609188dfce2dfa/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/4decd2ea7dbbcaba56087b61dd762fc7/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/6f09fbc4e311c399ba69ea84cae23029/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/18ae0fdaf56ad2193287e8a11ac30b22/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/2d246d98052b09bfea84c810118d78d8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0a57f575026fae77e9e1201bead893c7/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/6e2696b3986211fbb19bab05722c8f09/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/ab5402c41d319f59846be710f38cf3b1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/6899b3d43a75b006342f6bd6275a1ce1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/89131eccc31fb92eaa4bc03961fff4e2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/70e767c7f273321ac03c4593d9822c71/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/debug/AndroidManifest.xml:2:1-8:12
@@ -72,14 +84,16 @@ MERGED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/
 MERGED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/spartan/.gradle/caches/transforms-2/files-2.1/5c916a80f693b7a635c32770a488149b/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/spartan/.gradle/caches/transforms-2/files-2.1/5c916a80f693b7a635c32770a488149b/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/c131754963f69f4e502d7dd146ace48b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/c131754963f69f4e502d7dd146ace48b/AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/a690bc5986915e357e63e7221d16e71a/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/a690bc5986915e357e63e7221d16e71a/AndroidManifest.xml:11:5-20
-MERGED from [androidx.core:core:1.0.1] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f238294702919b4267a12cae7bc7e1b4/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.1] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f238294702919b4267a12cae7bc7e1b4/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d179f689e259e2d1ab30c8e0db88e4cd/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d179f689e259e2d1ab30c8e0db88e4cd/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/193f3f9a1a6cc7892da40772b8ca5987/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/193f3f9a1a6cc7892da40772b8ca5987/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/61f444202245ab5d3ba42eaaffe90d6f/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/61f444202245ab5d3ba42eaaffe90d6f/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.1] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f238294702919b4267a12cae7bc7e1b4/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/193f3f9a1a6cc7892da40772b8ca5987/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-39
 		ADDED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-39
@@ -132,12 +146,24 @@ uses-sdk
 INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/main/AndroidManifest.xml
+MERGED from [:@react-native-community_async-storage] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/spartan/Documents/React Apps/todo/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/spartan/.gradle/caches/transforms-2/files-2.1/5c916a80f693b7a635c32770a488149b/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/spartan/.gradle/caches/transforms-2/files-2.1/5c916a80f693b7a635c32770a488149b/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f81e41817c329646c55127be964c739a/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f81e41817c329646c55127be964c739a/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/spartan/.gradle/caches/transforms-2/files-2.1/547f78eeb17fa0c767faee87f4dbd8a2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/spartan/.gradle/caches/transforms-2/files-2.1/547f78eeb17fa0c767faee87f4dbd8a2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/c131754963f69f4e502d7dd146ace48b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/c131754963f69f4e502d7dd146ace48b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/8ca480af244bcb56b16f0306327a91ff/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/8ca480af244bcb56b16f0306327a91ff/AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/fd74a26fee505e97759b025e4bf1bd66/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/fd74a26fee505e97759b025e4bf1bd66/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/c83ade3641dc14c88c592a4c1f2da5b2/AndroidManifest.xml:5:5-7:41
@@ -154,58 +180,70 @@ MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/spartan/.gradl
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/23c70639e837823a9cbba6fce160a1d4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/a690bc5986915e357e63e7221d16e71a/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/a690bc5986915e357e63e7221d16e71a/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/74a7b2f165ebfa86eec7a7310aaa478e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/74a7b2f165ebfa86eec7a7310aaa478e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/2134efbcd426d98ee3692313433ca1a1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/2134efbcd426d98ee3692313433ca1a1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/bc3587801c0bf5cf72c29cbbdbc493d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/bc3587801c0bf5cf72c29cbbdbc493d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/cafc5df7421428d2fb470abe00b4de65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/cafc5df7421428d2fb470abe00b4de65/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/506c79d47558975e73e024df96940d40/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/506c79d47558975e73e024df96940d40/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d1479e401cb911df87503facbf801f1d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d1479e401cb911df87503facbf801f1d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/spartan/.gradle/caches/transforms-2/files-2.1/7160eb312bf7de888e0aea68986ac120/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/spartan/.gradle/caches/transforms-2/files-2.1/7160eb312bf7de888e0aea68986ac120/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/9760f8237c26112f20af675756ad47d6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/9760f8237c26112f20af675756ad47d6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0135c517d4694b2b4474a798ec172e30/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0135c517d4694b2b4474a798ec172e30/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/9f1f19fc9f3a78e017499588146edd08/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/9f1f19fc9f3a78e017499588146edd08/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/70e767c7f273321ac03c4593d9822c71/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/70e767c7f273321ac03c4593d9822c71/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/521fa64e04259f841504bacba4d48928/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/521fa64e04259f841504bacba4d48928/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/3cf6b7f0143d01130513135ddaa8215f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/3cf6b7f0143d01130513135ddaa8215f/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f581851b5ac49abb2afa60b3df808009/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f581851b5ac49abb2afa60b3df808009/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0135c517d4694b2b4474a798ec172e30/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0135c517d4694b2b4474a798ec172e30/AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/63259235eef7b95f966b0391e7c04ff8/AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/63259235eef7b95f966b0391e7c04ff8/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0327cfc61fbc349dc7375b718ccbd4b6/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0327cfc61fbc349dc7375b718ccbd4b6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d1479e401cb911df87503facbf801f1d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d1479e401cb911df87503facbf801f1d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/9760f8237c26112f20af675756ad47d6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/9760f8237c26112f20af675756ad47d6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/a7798da862c4285c56aee814ec65bf90/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/a7798da862c4285c56aee814ec65bf90/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/1b9cf37c655e5f61c5691991491876a9/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/1b9cf37c655e5f61c5691991491876a9/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/277a4166de5d0c569b3dc729615a00e0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/277a4166de5d0c569b3dc729615a00e0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0792ef8f32c818a0d6b184864771dd2c/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0792ef8f32c818a0d6b184864771dd2c/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d3e39878af46411dc0d0ff3125a93e43/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d3e39878af46411dc0d0ff3125a93e43/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f238294702919b4267a12cae7bc7e1b4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /Users/spartan/.gradle/caches/transforms-2/files-2.1/f238294702919b4267a12cae7bc7e1b4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d179f689e259e2d1ab30c8e0db88e4cd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/d179f689e259e2d1ab30c8e0db88e4cd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/193f3f9a1a6cc7892da40772b8ca5987/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/193f3f9a1a6cc7892da40772b8ca5987/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/8486886140556475f7e1027e39a7fd5e/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/8486886140556475f7e1027e39a7fd5e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/7a0785b159bd9219153e368ec27c488f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/7a0785b159bd9219153e368ec27c488f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/3f35a28f6900c57266de7030b1825178/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/3f35a28f6900c57266de7030b1825178/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/61f444202245ab5d3ba42eaaffe90d6f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/61f444202245ab5d3ba42eaaffe90d6f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/89131eccc31fb92eaa4bc03961fff4e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/89131eccc31fb92eaa4bc03961fff4e2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/617f24cdf58ab78db0e5014e0bd5e3f5/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/617f24cdf58ab78db0e5014e0bd5e3f5/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/3efc17981112c2e74d609188dfce2dfa/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/3efc17981112c2e74d609188dfce2dfa/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/4decd2ea7dbbcaba56087b61dd762fc7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/4decd2ea7dbbcaba56087b61dd762fc7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/6f09fbc4e311c399ba69ea84cae23029/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/6f09fbc4e311c399ba69ea84cae23029/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/18ae0fdaf56ad2193287e8a11ac30b22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/18ae0fdaf56ad2193287e8a11ac30b22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/2d246d98052b09bfea84c810118d78d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/2d246d98052b09bfea84c810118d78d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0a57f575026fae77e9e1201bead893c7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/0a57f575026fae77e9e1201bead893c7/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/6e2696b3986211fbb19bab05722c8f09/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/6e2696b3986211fbb19bab05722c8f09/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/ab5402c41d319f59846be710f38cf3b1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/ab5402c41d319f59846be710f38cf3b1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/6899b3d43a75b006342f6bd6275a1ce1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/6899b3d43a75b006342f6bd6275a1ce1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/89131eccc31fb92eaa4bc03961fff4e2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/89131eccc31fb92eaa4bc03961fff4e2/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/70e767c7f273321ac03c4593d9822c71/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/spartan/.gradle/caches/transforms-2/files-2.1/70e767c7f273321ac03c4593d9822c71/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion

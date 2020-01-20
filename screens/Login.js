@@ -12,18 +12,20 @@ export default class Login extends Component {
   }
 
   handleChangeMail = (event) => {
-    this.setState({ mail: event.target.value })
+    this.setState({ mail: event})
+    console.log("mail event",event)
   }
 
   handleChangePass = (event) => {
-    this.setState({ password: event.target.value })
+    this.setState({ password: event })
+    console.log("pass event",event)
   }
 
   performLogIn = () => AuthStore.LogIn(this.state.mail, this.state.password);
 
   render() {
     const inputsArray = initArrayInputs(this.handleChangeMail, this.handleChangePass);
-    const buttonsArray = initArrayLoginButtons(this.performLogIn);
+    const buttonsArray = initArrayLoginButtons(this.performLogIn,AuthStore.toggleAuth);
     return (
       <View>
         <UserField inputs={inputsArray} pressers={buttonsArray} />

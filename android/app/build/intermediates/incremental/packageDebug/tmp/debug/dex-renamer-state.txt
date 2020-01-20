@@ -1,4 +1,4 @@
-#Tue Jan 14 17:25:44 KRAT 2020
+#Wed Jan 15 15:07:04 KRAT 2020
 base.0=/Users/spartan/Documents/React Apps/todo/AwesomeProject/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

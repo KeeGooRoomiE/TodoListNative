@@ -12,7 +12,7 @@ export default class UserField extends Component {
             return (
               <View key={field.title}>
                 <Text>{field.title}</Text>
-                <TextInput placeholder={field.text} autoCompleteType={field.secured ? "password" : "email"} value={field.value} onChange={field.onChange} />
+                <TextInput placeholder={field.text} autoCompleteType={field.secured ? "password" : "email"} value={field.value} onChangeText={field.onChange} />
               </View>
             )
           })

@@ -5,17 +5,17 @@ export function initArrayInputs(mailInputOnChange,passInputOnChange) {
     return [mailInput, passwordInput]; 
   }
 
-export function initArrayLoginButtons(reaction) {
-    let fromLogToSign = { text: "Нет аккаунта?", link: "/register" }
-    let logInButton = { text: "Войти", reaction: reaction, link: "/home" }
+export function initArrayLoginButtons(reactionOne,reactionTwo) {
+    let fromLogToSign = { text: "Нет аккаунта?",reaction: reactionTwo }
+    let logInButton = { text: "Войти", reaction: reactionOne }
 
     return [logInButton, fromLogToSign]
   }
 
-export function initArraySigninButtons(reaction) {
-    let fromSignToLog = { text: "Уже есть аккаунт?", link: "/login" }
-    let signInButton = { text: "Регистрация", reaction: reaction, link: "/home" }
+export function initArraySigninButtons(reactionOne,reactionTwo) {
+    let fromSignToLog = { text: "Уже есть аккаунт?",reaction: reactionTwo }
+    let signInButton = { text: "Регистрация", reaction: reactionOne }
 
     return [signInButton, fromSignToLog]
-
+ 
   }
