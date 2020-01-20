@@ -1,13 +1,19 @@
-import { observable, decorate, action } from 'mobx';
+import { observable, decorate, action, reaction } from 'mobx';
 import { sendData } from '../logic/sendData';
 import AsyncStorage from '@react-native-community/async-storage';
-import { TouchableHighlightBase } from 'react-native';
-
+import { } from 'prop-types';
 
 class AuthStore {
 
   isLoggedIn = false;
-  isNew = false;
+  //isNew = false;
+
+  toogleAuthReaction = (func) => reaction(
+    () => this.isLoggedIn, 
+    () => {
+      func();
+      console.log("toogleAuthReaction...")
+    })
 
   LogIn = (mail, pass) => {
     let body = {
@@ -19,9 +25,14 @@ class AuthStore {
       .then(result => {
         console.log("AuthStore.Login.sendData.result: ", result)
         this.setTokenData(result.id)
-        this.getTokenData(result.id)
       })
       .catch(error => console.log('AuthStore.Login error: ', error))
+    console.log("IsLoggedIn: ", this.isLoggedIn)
+  }
+
+  LogOut = async () => {
+    this.isLoggedIn = false;
+    await AsyncStorage.clear();
     console.log("IsLoggedIn: ", this.isLoggedIn)
   }
 
@@ -39,28 +50,10 @@ class AuthStore {
   setTokenData = async (token) => {
     try {
       await AsyncStorage.setItem("userToken", token);
+      this.isLoggedIn = true;
       console.log(await AsyncStorage.getItem("userToken"));
     } catch (error) {
       console.log("AuthStore: setTokenData ", error)
-    }
-  }
-
-  getTokenData = async (token) => {
-    try {
-      const accessUserToken = await AsyncStorage.getItem('userToken')
-      if (token === accessUserToken) {
-        this.isLoggedIn = true;
-        console.log(this.isLoggedIn)
-      } else {
-        this.isLoggedIn = false;
-        try {
-          await AsyncStorage.removeItem('userToken');
-        } catch (error) {
-          console.log("AuthStore: getTokenData - removeItem ", error)
-        }
-      }
-    } catch (error) {
-      console.log("AuthStore: getTokenData ", error)
     }
   }
 
@@ -72,20 +65,18 @@ class AuthStore {
       console.log("AuthStore: getTokenExist ", error)
     }
   }
-
-  toggleAuth = () => {
-    this.isNew = !this.isNew;
-  }
 }
+
+
+
 
 const AuthExport = decorate(AuthStore, {
   isLoggedIn: observable,
-  isNew: observable,
   LogIn: action,
   SignIn: action,
   getTokenData: action,
   getTokenExist: action,
-  toggleAuth: action
+  // toogleAuthReaction: reaction
 })
 
 

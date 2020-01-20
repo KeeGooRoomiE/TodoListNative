@@ -6,12 +6,13 @@ export default class UserField extends Component {
     let buttons = this.props.pressers;
     let fields = this.props.inputs;
     return (
-      <View>
+      <View style ={{flex:1}}>
         {
+          
           fields.map((field) => {
             return (
               <View key={field.title}>
-                <Text>{field.title}</Text>
+            <Text>{field.title} </Text>
                 <TextInput placeholder={field.text} autoCompleteType={field.secured ? "password" : "email"} value={field.value} onChangeText={field.onChange} />
               </View>
             )

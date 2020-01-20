@@ -1,23 +1,34 @@
 import React, { Component } from 'react';
-import { ActivityIndicator } from 'react-native';
-import AuthStore from './screens/AuthStore';
+import { ActivityIndicator, View } from 'react-native';
+import AuthStore from './AuthStore';
 import { observer } from 'mobx-react';
 
-export default class LoadingScreen extends React.Component {
-  constructor() {
-    super();
+
+class LoadingScreen extends React.Component {
+  constructor(props) {
+    super(props);
     this.bootstrapAsync();
+   
+    console.log("Init LoadingScreen")
+    AuthStore.toogleAuthReaction(this.bootstrapAsync);
   }
+
+  componentDidMount() {
+    AuthStore.getTokenExist();
+  }
+
   bootstrapAsync = async () => {
-    this.props.navigation.navigate(AuthStore.isLoggedIn ? 'App' : 'Auth');
+    const navigateAction = this.props.navigation.navigate(AuthStore.isLoggedIn ? { routeName: 'App', } : { routeName: 'Auth' });
+    this.props.navigation.dispatch(navigateAction);
   }
 
   render() {
+    console.log(this.props)
     return (
-      <View>
+      <View style={{ justifyContent: "center", alignItems: "center", flex: 1 }}>
         <ActivityIndicator />
-        <StatusBar barStyle="default" />
       </View>
     );
   }
 }
+export default observer(LoadingScreen);

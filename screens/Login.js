@@ -3,8 +3,9 @@ import { View } from 'react-native';
 import UserField from '../components/UserField';
 import { initArrayInputs, initArrayLoginButtons } from './AuthElements';
 import AuthStore from './AuthStore';
+import { observer } from 'mobx-react';
 
-export default class Login extends Component {
+class Login extends Component {
 
   state = {
     mail: "",
@@ -13,23 +14,25 @@ export default class Login extends Component {
 
   handleChangeMail = (event) => {
     this.setState({ mail: event})
-    console.log("mail event",event)
   }
 
   handleChangePass = (event) => {
     this.setState({ password: event })
-    console.log("pass event",event)
   }
 
   performLogIn = () => AuthStore.LogIn(this.state.mail, this.state.password);
 
+  routeToSignIn = () => { this.props.navigation.navigate({ routeName: 'SignIn'})};
+
   render() {
     const inputsArray = initArrayInputs(this.handleChangeMail, this.handleChangePass);
-    const buttonsArray = initArrayLoginButtons(this.performLogIn,AuthStore.toggleAuth);
+    const buttonsArray = initArrayLoginButtons(this.performLogIn,this.routeToSignIn);
     return (
-      <View>
+      <View style={{flex: 1}}>
         <UserField inputs={inputsArray} pressers={buttonsArray} />
       </View>
     );
   }
 }
+
+export default observer(Login);

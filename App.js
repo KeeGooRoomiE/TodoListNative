@@ -1,43 +1,34 @@
-import React,{Component} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  StatusBar,
-} from 'react-native';
+import React, { Component } from 'react';
+import { SafeAreaView, StyleSheet, StatusBar, View, Text} from 'react-native';
 import Login from './screens/Login';
 import SignIn from './screens/Signin';
-import AuthStore from './screens/AuthStore';
-import {observer} from 'mobx-react';
-import { createStackNavigator, createSwitchNavigator, createAppContainer } from 'react-navigation';
+import { observer } from 'mobx-react';
+import { createSwitchNavigator, createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import LoadingScreen from './screens/LoadingScreen';
+import Notes from './screens/Notes';
 
 const App: () => React$Node = () => {
   return (
-    <>
+    <View style={{flex: 1}}>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-       {AuthStore.isNew ? <Login/> : <SignIn/>}
-      </SafeAreaView>
-    </>
+        <AppContainer />
+    </View>
   );
 };
 
-const AppNavigator = createStackNavigator({
-  Home: {
-    screen: HomeScreen,
-  },
-});
+const AppStack = createStackNavigator({ Home: Notes});
+const AuthStack = createStackNavigator({ SignIn: SignIn, LogIn: Login });
 
-const AppStack = createStackNavigator({ Home: HomeScreen});
-const AuthStack = createStackNavigator({ Signin: SignIn ,Login: LogIn });
-
-createAppContainer(createSwitchNavigator(
+const AppContainer = createAppContainer(createSwitchNavigator(
   {
-    AuthLoading: AuthLoadingScreen,
+    
     App: AppStack,
     Auth: AuthStack,
+    AuthLoading: LoadingScreen
   },
   {
-    initialRouteName: 'AuthLoading',
+    initialRouteName: "AuthLoading",
   }
 ));
 
