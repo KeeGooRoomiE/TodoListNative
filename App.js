@@ -18,7 +18,7 @@ const App: () => React$Node = () => {
 };
 
 const AppStack = createStackNavigator({ Home: Notes});
-const AuthStack = createStackNavigator({ SignIn: SignIn, LogIn: Login });
+const AuthStack = createSwitchNavigator({ SignIn: SignIn, LogIn: Login });
 
 const AppContainer = createAppContainer(createSwitchNavigator(
   {

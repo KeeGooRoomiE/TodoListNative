@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
-import { View,Text } from 'react-native';
+import { View,Text,Button } from 'react-native';
+import AuthStore from './AuthStore';
 
 export default class Notes extends Component {
+  static navigationOptions = {
+    title: 'Please sign in',
+    headerLeft: <Button title='menu'/>,
+    headerTitleAlign: 'center',
+  };
 
   componentDidMount() {
     console.log("init Notes Screen")
@@ -13,6 +19,7 @@ export default class Notes extends Component {
         <Text>
           Notes Sample
         </Text>
+        <Button title="Logout" onPress={AuthStore.LogOut}></Button>
       </View>
     );
   }
